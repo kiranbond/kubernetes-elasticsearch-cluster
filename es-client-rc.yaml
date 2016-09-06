@@ -24,7 +24,7 @@ spec:
           capabilities:
             add:
               - IPC_LOCK
-        image: larmog/elasticsearch-kubernetes-armhf:2.2.0
+        image: elasticsearch:5.0.0-alpha5
         env:
         - name: KUBERNETES_CA_CERTIFICATE_FILE
           value: /var/run/secrets/kubernetes.io/serviceaccount/ca.crt
